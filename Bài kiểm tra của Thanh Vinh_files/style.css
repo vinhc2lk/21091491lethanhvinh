@@ -1,0 +1,218 @@
+
+.name{
+    color: red;
+    font-size: 50px;
+    font-weight: 100;
+}
+.bai1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px
+
+}
+
+.bai1-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+}
+.bai1h6-text{
+    margin: 2px 0 12px 0 ;
+}
+.bai1-pic{
+    margin-top: 20px;
+}
+
+.VT{
+    color: red;
+}
+.sanphamnlock{
+    display: flex;
+
+}   
+.sp{
+    padding: 5px;
+    color: white;
+    background-color: black;
+    margin: 5px;
+}
+.bai2{
+    display: flex;
+    justify-content: center;
+}
+.bai2-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.populartag{
+    padding: 30px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.tagwrap{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 660px;
+
+}
+.tag{
+    color: white;
+    background: greenyellow;
+   font-size: 30px;
+   text-align: center;
+   padding: 5px;
+    display: block;
+    border-radius: 10px;
+}
+
+.bai3-container{
+    margin-left:  400px;
+    margin-right: 400px;
+}
+.bai3-list{
+    list-style-type: none;
+}
+.bai3-button{
+padding: 10px 20px;
+background-color: rgb(85, 102, 179);
+border: none;
+}
+.bai4{
+    margin: auto;
+    width: 50%;
+}
+.bai4-container{
+    width: 700px;
+    background-color:  rgb(176, 175, 175);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+}
+.bai4-icon{
+    padding: 20px;
+    font-size: 40px;
+}
+.bai4-headertext{
+padding: 10px;
+}
+.bai4-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+    padding: 10px;
+}
+.email-field{
+    margin: 5px;
+    padding: 10px;
+    border: none;
+}
+
+.bai4-button{
+padding: 20px;
+color: white;
+background-color: navy;
+}
+
+.bai5-container{
+    display: flex;
+    justify-content: center;
+}
+.bai5-background{
+    width: 1000px;
+    height: 300px;
+    background-image: url("https://cdn.glitch.global/45884abb-5dd6-4ba0-9cec-16c0ec672dce/6-loai-hat-ca-phe-pho-bien-hien-nay-loai-nao-ngon-nhat-202103101455115647.jpg?v=1709447938414");
+    color: white;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+    background-size: cover;
+}
+.bai5-wraptext{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center
+}
+.bai5-text1{
+font-size: 20px;
+padding: 20px;
+}
+
+
+.bai5-button{
+    font-size: 20px;
+    color: white;
+    padding: 10px   ;
+    border: none;
+    background: rgb(131,58,180);
+background: linear-gradient(360deg, rgba(131,58,180,1) 0%, rgba(255,0,0,1) 44%, rgba(252,176,69,1) 100%);
+}
+
+
+.bai6-container{
+    display: flex;
+    justify-content: center;
+}
+.bai6-background{
+    width: 1000px;
+    height: 300px;
+    background-image: url("https://cdn.glitch.global/45884abb-5dd6-4ba0-9cec-16c0ec672dce/A_black_image.jpg.webp?v=1709448038883");
+    color: white;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+    background-size: cover;
+}
+
+.bai6-wraptext{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 70px;
+}
+.block{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.block > *{
+padding: 10px;
+}
+
+.text-bai6{
+    color: yellow;
+    font-size: 10px;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.pink{
+    color: pink;
+}
+.blue{
+    color: blue;
+}
+.bai6-number{
+    font-size: 30px;
+}
+.block> i{
+    font-size: 30px;
+}
